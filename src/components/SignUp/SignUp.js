@@ -20,7 +20,7 @@ class SignUp extends Component {
 
         ApiServices.postEmail(newEmail)
             .then(res => 
-                window.location.assign(res.campaign_url)
+                window.location.href = res.campaign_url
             )
             .catch(res => {
                 this.setState({error: "Oops, something went wrong. That's on us."})
