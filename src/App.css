@@ -1,0 +1,12 @@
+main {
+    max-width: 860px;
+    margin: auto;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}

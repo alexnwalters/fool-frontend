@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
+import './Header.css'
 
 class Header extends Component {
     render() {
         return(
-            <div className="nav">
-                <div>[logo]</div>
-                <div>Sign Up</div>
+            <div className="header">
+                <img src='https://g.foolcdn.com/misc-assets/black-fool-hat-text.svg' alt='motley fool logo' />
             </div>
         )
     }

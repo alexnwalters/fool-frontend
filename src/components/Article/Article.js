@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import Recs from '../Recs/Recs'
+import './Article.css'
 
 class Article extends Component {
     render() {
         return(
-            <div>
+            <div className='article'>
                 <div>
                     <h1 className='hero'>Stock Advisor</h1> 
                     <p>

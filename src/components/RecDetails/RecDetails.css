@@ -1,0 +1,21 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.company {
+    width: 50%;
+    text-align: left;
+}
+
+.symbol, .return {
+    width: 20%;
+}
+
+.return {
+    font-weight: bolder;
+}
+

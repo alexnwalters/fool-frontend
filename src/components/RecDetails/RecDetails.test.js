@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Footer from './Footer';
+import RecDetails from './RecDetails';
 
 it('render without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(
-        <Footer />,
+        <RecDetails />,
         div
     );
     ReactDOM.unmountComponentAtNode(div);

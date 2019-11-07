@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Disclosure from './components/Disclosure/Disclosure';
 import Article from './components/Article/Article';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       </header>
       <main>
         <Article />
+        <SignUp />
         <Disclosure />
       </main>
       <footer>
